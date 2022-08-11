@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.body{
+    background-image: url("img/Fondo.jpg");
+    background-size:cover;
+}
+
+.header{
+    height: 8vw;
+}
+
+.main{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-div2{
+    width: 50vw;
+    height:30vw;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    height: 5vw;
+    width: 100%;
+}
+
+.pixel{
+    display: inline;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: white double 8px;
+    height: 70px;
+    width: 200px;
+    cursor: default;
+}
+
+.start:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+.tomato{
+    background-color: tomato;
+}
+
+.restart-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-restart{
+    color: white;
+    font-size: 23px;
+}
+
+.number-restart{
+    color: white;
+    font-size: 80px;
+    padding: 20px;
+}
+
+.retry-restart{
+    color: white;
+    font-size: 30px;
+    margin-top: 80px;
+    cursor: default;
+}
+
+.retry-restart:hover{
+    background:linear-gradient(white,rgb(31, 30, 30));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.score{
+    position: fixed;
+    top: 36vw;
+    left: 62.5vw;
+    z-index: 200;
+    font-size: 1.1vw;
+    color: white;
+}
+
+.apple{
+    background-image: url("img/Manzana.png");
+    background-size: cover;
+}
+
+.snake{
+    background-color: rgb(136, 255, 125);
+}
+
+.footer{
+    height: 6vw;
+}
+

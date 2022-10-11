@@ -48,6 +48,7 @@ const movement = () => {
             try{
                 if(array2[array2.length - 1] === "ArrowRight"){
                     if(array2[array2.length - 2] === "ArrowLeft" ){
+                        array2[array2.length - 1] = "ArrowLeft"
                         leftMovement(array3)
                     }else{
                         rightMovement(array3)
@@ -55,6 +56,7 @@ const movement = () => {
                 }
                 else if(array2[array2.length - 1] === "ArrowLeft"){
                     if(array2[array2.length - 2] === "ArrowRight" ){
+                        array2[array2.length - 1] = "ArrowRight"
                         rightMovement(array3)
                     }
                     else{
@@ -63,6 +65,7 @@ const movement = () => {
                 }
                 else if(array2[array2.length - 1] === "ArrowUp"){
                     if(array2[array2.length - 2] === "ArrowDown" ){
+                        array2[array2.length - 1] = "ArrowDown"
                         downMovement(array3)
                     }
                     else{
@@ -71,6 +74,7 @@ const movement = () => {
                 }
                 else if(array2[array2.length - 1] === "ArrowDown"){
                     if(array2[array2.length - 2] === "ArrowUp" ){
+                        array2[array2.length - 1] = "ArrowUp"
                         upMovement(array3)
                     }
                     else{
